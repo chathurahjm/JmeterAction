@@ -26,4 +26,5 @@ jobs:
     - name: Run JMeter Test
       run: |
         pwd
+        ls
         apache-jmeter-5.6.3.tgz/bin/jmeter -n -t path/to/your/testscript.jmx -l results.jtl
