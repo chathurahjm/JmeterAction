@@ -23,4 +23,4 @@ jobs:
       run: |
         pwd
         ls
-        ./apache-jmeter-5.6.3.tgz/bin/jmeter -n -t Gayan.jmx -l results.jtl
+        ./apache-jmeter-5.6.3/bin/jmeter -n -t Gayan.jmx -l results.jtl
