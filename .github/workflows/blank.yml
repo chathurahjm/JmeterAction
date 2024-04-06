@@ -23,8 +23,8 @@ jobs:
       run: |
             wget https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.3/cmdrunner-2.3.jar -P ./apache-jmeter-5.6.3/lib/
             wget https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.10/jmeter-plugins-manager-1.10.jar -P ${JMETER_HOME}/lib/
-            java -cp ./apache-jmeter-5.6.3/lib/ext/*:./apache-jmeter-5.6.3/lib/* org.jmeterplugins.repository.PluginManagerCMDInstaller
-            ./apache-jmeter-5.6.3/bin/PluginsManagerCMD.sh install jpgc-casutg
+            sudo java -cp ./apache-jmeter-5.6.3/lib/ext/*:./apache-jmeter-5.6.3/lib/* org.jmeterplugins.repository.PluginManagerCMDInstaller
+            sudo ./apache-jmeter-5.6.3/bin/PluginsManagerCMD.sh install jpgc-casutg
 
     - name: Run JMeter Test
       run: |
