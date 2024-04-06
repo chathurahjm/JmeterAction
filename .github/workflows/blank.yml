@@ -23,4 +23,11 @@ jobs:
       run: |
         pwd
         ls
-        ./apache-jmeter-5.6.3/bin/jmeter -n -t Gayan.jmx -l results.jtl
+        ./apache-jmeter-5.6.3/bin/jmeter -n -t Gayan.jmx -l results.csv
+
+    - name: Archive Jacoco reports
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: jacoco-reports
+        path: results.csv
