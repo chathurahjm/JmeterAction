@@ -22,6 +22,7 @@ jobs:
     - name: Install JMeter Plugins Manager
       run: |
         wget -O ./apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar https://jmeter-plugins.org/get/
+        java -cp ./apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager.jar org.jmeterplugins.repository.PluginManagerCMDInstaller
         ./apache-jmeter-5.6.3/bin/PluginsManagerCMD.sh install jpgc-casutg
 
     - name: Run JMeter Test
