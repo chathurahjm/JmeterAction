@@ -135,10 +135,10 @@
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1010842640">
-            <stringProp name="1507423">1000</stringProp>
+            <stringProp name="1507423">2000</stringProp>
             <stringProp name="0">0</stringProp>
             <stringProp name="30">30</stringProp>
-            <stringProp name="50547">300</stringProp>
+            <stringProp name="50547">400</stringProp>
             <stringProp name="1598">20</stringProp>
           </collectionProp>
         </collectionProp>
