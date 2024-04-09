@@ -26,6 +26,11 @@ jobs:
             #ls
             sudo java -Djava.awt.headless=true $JVM_ARGS -jar ./apache-jmeter-5.6.3/lib/cmdrunner-2.3.jar --tool org.jmeterplugins.repository.PluginManagerCMD install jpgc-casutg
             #sudo ./apache-jmeter-5.6.3/bin/PluginsManagerCMD.sh install jpgc-casutg
+   
+    - name: Set Java heap size
+      run: |
+          echo "export JVM_ARGS=\"-Xms2g -Xmx4g\"" >> $GITHUB_ENV
+          
     - name: Run JMeter Test
       #if: always()
       run: |
