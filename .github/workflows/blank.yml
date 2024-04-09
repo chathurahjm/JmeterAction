@@ -29,7 +29,7 @@ jobs:
    
     - name: Set Java heap size
       run: |
-          echo "export JVM_ARGS=\"-Xms6g -Xmx10g\"" >> $GITHUB_ENV
+          echo "export JVM_ARGS=\"-Xms6g -Xmx13g\"" >> $GITHUB_ENV
           
     - name: Run JMeter Test
       #if: always()
