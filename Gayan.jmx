@@ -28,7 +28,7 @@
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-04-07T18:00:16.2055437</stringProp>
-          <stringProp name="HTTPSampler.domain">www.kapruka.com</stringProp>
+          <stringProp name="HTTPSampler.domain">www.dialog.lk</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">/</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
