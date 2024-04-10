@@ -5,16 +5,18 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-677908850">
-            <stringProp name="1686169">7000</stringProp>
+          <collectionProp name="998602442">
+            <stringProp name="1626587">5000</stringProp>
             <stringProp name="0">0</stringProp>
-            <stringProp name="1722">60</stringProp>
+            <stringProp name="48687">120</stringProp>
             <stringProp name="49586">200</stringProp>
-            <stringProp name="1722">60</stringProp>
+            <stringProp name="48687">120</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
@@ -24,7 +26,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-04-07T18:00:16.2055437</stringProp>
           <stringProp name="HTTPSampler.domain">ikman.lk</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
